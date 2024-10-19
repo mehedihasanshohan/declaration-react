@@ -8,6 +8,8 @@ const Form = ({status}) => {
   return (
     <>
 
+      <h2>City quiz</h2>
+      <p>What city is located on two continents?</p>
 
       <form id="form">
             <textarea disabled={status === 'submitting'} ></textarea>

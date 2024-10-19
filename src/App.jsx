@@ -1,14 +1,20 @@
 // import './App.css'
 import Form from './component/Form'
 import './style.css'
+
+  const statuses = [ 'empty', 'typing', 'submitting', 'success', 'error'];
+
 function App() {
 
   return (
     <>
-      <h2>City quiz</h2>
-      <p>What city is located on two continents?</p>
 
-      <Form status='submitting'></Form>
+        {
+          statuses.map((status) => (
+            <Form key={status} status={status}></Form>
+          ))
+        }
+
     </>
   )
 }
