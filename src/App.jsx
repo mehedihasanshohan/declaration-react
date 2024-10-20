@@ -1,4 +1,5 @@
 // import './App.css'
+import CustomInput from './component/CustomInput'
 import Form from './component/Form'
 import Pointer from './component/Pointer'
 import './style.css'
@@ -10,7 +11,8 @@ function App() {
     <>
 
             {/* <Form></Form> */}
-        <Pointer></Pointer>
+        {/* <Pointer></Pointer> */}
+        <CustomInput></CustomInput>
     </>
   )
 }
