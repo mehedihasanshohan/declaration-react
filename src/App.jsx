@@ -1,5 +1,6 @@
 // import './App.css'
 import Form from './component/Form'
+import Pointer from './component/Pointer'
 import './style.css'
 
 
@@ -8,8 +9,8 @@ function App() {
   return (
     <>
 
-            <Form></Form>
-
+            {/* <Form></Form> */}
+        <Pointer></Pointer>
     </>
   )
 }
