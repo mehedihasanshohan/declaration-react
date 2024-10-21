@@ -6,7 +6,7 @@ export default function Mirror({ messageColor }) {
     const [color, setColor] = useState(messageColor);
 
     const handleChangeColor = () => {
-        setColor("#1b1b1b");
+        setColor("yellow");
     };
 
     return (

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Mirror from "./components/Mirror";
+import Mirror from "./Mirror";
 
 function MirrorParent() {
     const [color, setColor] = useState("red");
@@ -10,7 +10,7 @@ function MirrorParent() {
 
     return (
         <div>
-            <Mirror messageColor={color} />
+            <Mirror messageColor={color}></Mirror>
             <br />
             <button onClick={handleChangeColor}>
                 Change Color from Parent
