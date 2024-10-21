@@ -1,4 +1,5 @@
 // import './App.css'
+import Accordion from './Accordion'
 import CustomInput from './component/CustomInput'
 import Form from './component/Form'
 import Mirror from './component/Mirror'
@@ -18,7 +19,8 @@ function App() {
         {/* <CustomInput></CustomInput> */}
         {/* <MirrorParent></MirrorParent> */}
         {/* <Mirror></Mirror> */}
-        <Travel></Travel>
+        {/* <Travel></Travel> */}
+        <Accordion></Accordion>
     </>
   )
 }

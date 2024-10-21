@@ -17,15 +17,19 @@ function PlaceTree({ place }) {
   );
 }
 
-export default function TravelPlan() {
+export default function TravelPlan({id, placesById}) {
+  const place = placesById[id];
   const [plan, setPlan] = useState(initialTravelPlan);
-  const planets = plan.childPlaces;
+
+  const root = plan[0];
+
+  const planetIds = root.childIds;
   return (
     <>
       <h2>Places to visit</h2>
       <ol>
-        {planets.map(place => (
-          <PlaceTree key={place.id} place={place} />
+        {planetIds.map(placeId => (
+          <PlaceTree key={placeId} id={placeId} placesById={plan} />
         ))}
       </ol>
     </>
