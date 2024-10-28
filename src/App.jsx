@@ -8,6 +8,7 @@ import Pointer from './component/Pointer'
 import Ref from './component/Ref'
 import Stopwatch from './component/StopWatch'
 import Travel from './component/Travel'
+import FocusInput from './component/FocusInput'
 import './style.css'
 
 
@@ -23,8 +24,9 @@ function App() {
         {/* <Mirror></Mirror> */}
         {/* <Travel></Travel> */}
         {/* <Accordion></Accordion> */}
-        <Ref></Ref>
-        <Stopwatch></Stopwatch>
+        {/* <Ref></Ref> */}
+        {/* <Stopwatch></Stopwatch> */}
+        <FocusInput></FocusInput>
     </>
   )
 }
