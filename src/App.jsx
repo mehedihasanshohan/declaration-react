@@ -6,6 +6,7 @@ import Mirror from './component/Mirror'
 import MirrorParent from './component/MirrorParent'
 import Pointer from './component/Pointer'
 import Ref from './component/Ref'
+import Stopwatch from './component/StopWatch'
 import Travel from './component/Travel'
 import './style.css'
 
@@ -23,6 +24,7 @@ function App() {
         {/* <Travel></Travel> */}
         {/* <Accordion></Accordion> */}
         <Ref></Ref>
+        <Stopwatch></Stopwatch>
     </>
   )
 }
