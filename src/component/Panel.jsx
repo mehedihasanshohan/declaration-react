@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
 
-const Panel = ({title, children, handler}) => {
+const Panel = ({title, children}) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
