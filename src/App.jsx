@@ -10,6 +10,7 @@ import Stopwatch from './component/StopWatch'
 import Travel from './component/Travel'
 import FocusInput from './component/FocusInput'
 import './style.css'
+import ScrollToSection from './component/Scrolling'
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
         {/* <Accordion></Accordion> */}
         {/* <Ref></Ref> */}
         {/* <Stopwatch></Stopwatch> */}
-        <FocusInput></FocusInput>
+        {/* <FocusInput></FocusInput> */}
+        <ScrollToSection></ScrollToSection>
     </>
   )
 }
