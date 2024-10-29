@@ -11,6 +11,7 @@ import Travel from './component/Travel'
 import FocusInput from './component/FocusInput'
 import './style.css'
 import ScrollToSection from './component/Scrolling'
+import ForwardRef from './component/forwardRef'
 
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
         {/* <Ref></Ref> */}
         {/* <Stopwatch></Stopwatch> */}
         {/* <FocusInput></FocusInput> */}
-        <ScrollToSection></ScrollToSection>
+        {/* <ScrollToSection></ScrollToSection> */}
+        <ForwardRef></ForwardRef>
     </>
   )
 }
