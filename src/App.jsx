@@ -12,6 +12,8 @@ import FocusInput from './component/FocusInput'
 import './style.css'
 import ScrollToSection from './component/Scrolling'
 import ForwardRef from './component/forwardRef'
+import CleanUp from './component/CleanUp'
+import SyncEffect from './component/SyncEffect'
 
 
 function App() {
@@ -30,7 +32,9 @@ function App() {
         {/* <Stopwatch></Stopwatch> */}
         {/* <FocusInput></FocusInput> */}
         {/* <ScrollToSection></ScrollToSection> */}
-        <ForwardRef></ForwardRef>
+        {/* <ForwardRef></ForwardRef> */}
+        {/* <CleanUp></CleanUp> */}
+        <SyncEffect></SyncEffect>
     </>
   )
 }
