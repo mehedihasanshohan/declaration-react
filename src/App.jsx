@@ -14,6 +14,7 @@ import ScrollToSection from './component/Scrolling'
 import ForwardRef from './component/forwardRef'
 import CleanUp from './component/CleanUp'
 import SyncEffect from './component/SyncEffect'
+import KeyChange from './component/KeyChange'
 
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
         {/* <ScrollToSection></ScrollToSection> */}
         {/* <ForwardRef></ForwardRef> */}
         {/* <CleanUp></CleanUp> */}
-        <SyncEffect></SyncEffect>
+        {/* <SyncEffect></SyncEffect> */}
+        <KeyChange></KeyChange>
     </>
   )
 }
