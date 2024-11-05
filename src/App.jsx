@@ -15,6 +15,7 @@ import ForwardRef from './component/forwardRef'
 import CleanUp from './component/CleanUp'
 import SyncEffect from './component/SyncEffect'
 import KeyChange from './component/KeyChange'
+import ChatServer from './component/ChatRoom'
 
 
 function App() {
@@ -36,7 +37,8 @@ function App() {
         {/* <ForwardRef></ForwardRef> */}
         {/* <CleanUp></CleanUp> */}
         {/* <SyncEffect></SyncEffect> */}
-        <KeyChange></KeyChange>
+        {/* <KeyChange></KeyChange> */}
+        <ChatServer></ChatServer>
     </>
   )
 }
